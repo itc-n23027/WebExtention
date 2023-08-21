@@ -1,0 +1,44 @@
+charset "UTF-8";
+.logo {
+        width: 210px;
+        margin-top: 7px;
+}
+.menu li{
+        display: inline;
+        margin-left: 35px;
+}
+.header {
+        overflow: hidden;
+        margin: 20px;
+}
+.logo {
+        float: left;
+}
+.menu {
+        float: right;
+}
+.content{
+        text-align: center;
+        margin-top: 10%;
+}
+
+body {
+        background-image: url(images/1.png);
+        background-size: cover;
+}
+.title {
+        font-family: 'Philosopher', serif;
+        font-size: 4rem;
+	font-weight: normal;
+	color: #000;
+}
+.button {
+        text-decoration: none;
+        background: #0bd;
+        color: #FFFF00;
+        padding: 10px;
+        border-radius: 5px;
+}
+.button:hover {
+        background: #0090aa;
+}
